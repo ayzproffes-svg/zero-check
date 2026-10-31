@@ -1,0 +1,3 @@
+export function Disclaimer() {
+  return <p className="disclaimer">Zero check is decision-support software and an assessment tool, not a fund, broker, portfolio manager or investment adviser, and not a promise of returns. Outputs are modelled estimates as of the stated date, based on the dated evidence shown. Scenario cases are not bounds on potential loss; listed equity can lose most or all of its value. Execution simulations are research estimates, not broker advice or a live order plan. Backtests do not prove future results. Before offering paid research, recommendations or personalised advice in India, obtain advice from qualified Indian securities counsel on SEBI Research Analyst / Investment Adviser requirements. A disclaimer alone is not compliance.</p>;
+}
