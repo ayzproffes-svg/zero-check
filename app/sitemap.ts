@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://zero-check.vercel.app";
+  const base = process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "http://localhost:3000");
   return ["", "/lab", "/legal/disclaimer"].map(path => ({ url: `${base}${path}`, lastModified: new Date() }));
 }
