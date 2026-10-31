@@ -1,0 +1,3 @@
+import { ContentShell } from "@/components/content-shell";
+import "../content.css";
+export default function Roadmap() { return <ContentShell title="What comes next." eyebrow="ZERO CHECK / ROADMAP"><p>The current site is a synthetic-data prototype. The production workflow needs a connected Google/Firebase project and approved data sources.</p><h2>01 / Evidence infrastructure</h2><p>Point-in-time ledger, source uploads, validation, lineage, and organization access.</p><h2>02 / Versioned models</h2><p>Quality, valuation, risk, execution, backtest and report engines with reproducible tests.</p><h2>03 / Review workflows</h2><p>Committee challenge, approvals, monitoring, report export and enterprise controls.</p></ContentShell>; }

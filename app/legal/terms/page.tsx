@@ -1,0 +1,3 @@
+import { ContentShell } from "@/components/content-shell";
+import "../../content.css";
+export default function Terms() { return <ContentShell title="Terms of use." eyebrow="ZERO CHECK / LEGAL"><p>Zero check currently provides an illustrative decision-support prototype. The default company values are synthetic demo fixtures and are not live prices, financial statements, forecasts or advice.</p><p>Do not use the prototype to place trades or make an investment decision. Any production use requires approved evidence, model validation, access controls and human review.</p><p>For access or terms questions, email <a href="mailto:ayz.proffes@gmail.com">ayz.proffes@gmail.com</a>.</p></ContentShell>; }

@@ -1,3 +1,4 @@
-import Link from "next/link";
+import { ContentShell } from "@/components/content-shell";
 import { Disclaimer } from "@/components/disclaimer";
-export default function Page() { return <main className="legal-page"><Link href="/">← Zero check</Link><h1>Scope & disclaimer</h1><Disclaimer /></main>; }
+import "../../content.css";
+export default function DisclaimerPage() { return <ContentShell title="Scope & disclaimer." eyebrow="ZERO CHECK / LEGAL"><Disclaimer/></ContentShell>; }

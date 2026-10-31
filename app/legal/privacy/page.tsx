@@ -1,0 +1,3 @@
+import { ContentShell } from "@/components/content-shell";
+import "../../content.css";
+export default function Privacy() { return <ContentShell title="Privacy." eyebrow="ZERO CHECK / LEGAL"><p>This prototype does not create user accounts or store entries from the interactive lab on a server. Inputs remain in your current browser session and are lost when the page is reloaded.</p><p>Contact and update links open your email application. If you choose to send an email, your message is processed by your email provider and the recipient’s email provider. No newsletter database is connected.</p><p>For privacy questions, email <a href="mailto:ayz.proffes@gmail.com">ayz.proffes@gmail.com</a>.</p></ContentShell>; }

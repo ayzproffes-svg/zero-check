@@ -7,5 +7,5 @@
 - The model is intentionally narrow: it compares entered quality, price, base value, bear value and average daily traded value against mandate gates. It does not yet calculate fundamental KPIs, DCF, peer multiples, Monte Carlo, correlated stress, full impact cost, historical backtests, CPR, DOCX/PDF exports, or monitoring.
 - `BUY_ONE` is a model state for the synthetic example, not a trade recommendation. Human approval is required.
 - The public access offering is descriptive. There is no connected request form, newsletter or billing flow.
-- The reference landing page was inspected for structure and content order. Its art, copy, testimonials, counts, logos and code were not reused. Pixel-level matching and its seven-width visual gate were not completed.
+- The reference landing page was inspected for structure, content order, responsive layout and interactions. The new landing page uses original Zero check content and CSS/SVG artwork; reference copy, logos, testimonials, assets and code were not reused. The desktop (1440 px) and mobile (375 px) layouts and core interactions were checked in the ChatGPT in-app browser. Pixel-level matching and the brief's full seven-width visual gate remain incomplete.
 - Production security, multi-tenant roles, SSO, Firestore rules, Cloud SQL, Cloud Tasks and Cloud Run are deferred until cloud resources exist.

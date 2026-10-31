@@ -9,12 +9,13 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`. The interactive demo is at `/lab`.
+Open `http://localhost:3000`. The landing page includes a responsive interactive repository viewer, terminal, tier selector, FAQ, menu and scroll/cursor motion. The interactive synthetic decision lab is at `/lab`.
 
 ## Verification
 
 ```sh
 npm run typecheck
+npm test
 npm run build
 ```
 
